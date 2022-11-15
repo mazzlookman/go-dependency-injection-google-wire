@@ -6,6 +6,10 @@
 
 package google_wire
 
+import (
+	"github.com/google/wire"
+)
+
 // Injectors from injector.go:
 
 func InitializedService(isError bool) (*SimpleService, error) {
@@ -23,3 +27,18 @@ func InitializedDatabaseRepository() *DatabaseRepository {
 	databaseRepository := NewDatabaseRepository(dbPostgreSQL, dbMongoDB)
 	return databaseRepository
 }
+
+func InitializedFooBarService(foo Foo, bar Bar) *FooBarService {
+	fooRepository := NewFooRepository()
+	fooService := NewFooService(fooRepository, foo)
+	barRepository := NewBarRepository()
+	barService := NewBarService(barRepository, bar)
+	fooBarService := NewFooBarService(fooService, barService)
+	return fooBarService
+}
+
+// injector.go:
+
+var fooSet = wire.NewSet(NewFooRepository, NewFooService)
+
+var barSet = wire.NewSet(NewBarRepository, NewBarService)
