@@ -8,6 +8,8 @@ package google_wire
 
 import (
 	"github.com/google/wire"
+	"io"
+	"os"
 )
 
 // Injectors from injector.go:
@@ -66,6 +68,21 @@ var (
 	_wireFooStructValue = fooValue
 	_wireBarStructValue = barValue
 )
+
+func InitializedReader() io.Reader {
+	reader := _wireFileValue
+	return reader
+}
+
+var (
+	_wireFileValue = os.Stdin
+)
+
+func InitializedConfiguration() *Configuration {
+	application := NewApplication()
+	configuration := application.Configuration
+	return configuration
+}
 
 // injector.go:
 
