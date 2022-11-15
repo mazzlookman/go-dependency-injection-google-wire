@@ -20,3 +20,7 @@ func NewFooService(fooRepository *FooRepository, name Foo) *FooService {
 		Name:          name,
 	}
 }
+
+type FooStruct struct {
+	Name string
+}

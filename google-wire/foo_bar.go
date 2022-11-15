@@ -11,3 +11,8 @@ func NewFooBarService(fooService *FooService, barService *BarService) *FooBarSer
 		BarService: barService,
 	}
 }
+
+type FoobarStruct struct {
+	*FooStruct
+	*BarStruct
+}

@@ -20,3 +20,7 @@ func NewBarService(barRepository *BarRepository, name Bar) *BarService {
 		Name:          name,
 	}
 }
+
+type BarStruct struct {
+	Name string
+}

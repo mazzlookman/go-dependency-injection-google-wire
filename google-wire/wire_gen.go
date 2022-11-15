@@ -52,6 +52,21 @@ func InitializedFooBarServiceStruct(foo Foo, bar Bar) *FooBarService {
 	return fooBarService
 }
 
+func InitializedFooBarStructUsingValue() *FoobarStruct {
+	fooStruct := _wireFooStructValue
+	barStruct := _wireBarStructValue
+	foobarStruct := &FoobarStruct{
+		FooStruct: fooStruct,
+		BarStruct: barStruct,
+	}
+	return foobarStruct
+}
+
+var (
+	_wireFooStructValue = fooValue
+	_wireBarStructValue = barValue
+)
+
 // injector.go:
 
 var fooSet = wire.NewSet(NewFooRepository, NewFooService)
@@ -61,3 +76,7 @@ var barSet = wire.NewSet(NewBarRepository, NewBarService)
 var sayHelloSet = wire.NewSet(
 	NewSayHelloImpl, wire.Bind(new(SayHello), new(*SayHelloImpl)),
 )
+
+var fooValue = &FooStruct{}
+
+var barValue = &BarStruct{}

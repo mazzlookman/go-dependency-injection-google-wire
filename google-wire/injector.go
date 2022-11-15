@@ -3,7 +3,11 @@
 
 package google_wire
 
-import "github.com/google/wire"
+import (
+	"github.com/google/wire"
+	"io"
+	"os"
+)
 
 func InitializedService(isError bool) (*SimpleService, error) {
 	wire.Build(
@@ -41,5 +45,18 @@ func InitializedSayHelloService() *SayHelloService {
 
 func InitializedFooBarServiceStruct(foo Foo, bar Bar) *FooBarService {
 	wire.Build(fooSet, wire.Struct(new(FooBarService), "FooService"))
+	return nil
+}
+
+var fooValue = &FooStruct{}
+var barValue = &BarStruct{}
+
+func InitializedFooBarStructUsingValue() *FoobarStruct {
+	wire.Build(wire.Value(fooValue), wire.Value(barValue), wire.Struct(new(FoobarStruct), "*"))
+	return nil
+}
+
+func InitializedReader() io.Reader {
+	wire.Build(wire.InterfaceValue(new(io.Reader), os.Stdin))
 	return nil
 }
