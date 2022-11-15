@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4da4dcc-a5a5-4600-ac0f-6445f485c96a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5866722d-a99e-4903-a11c-dd3e5b3a485b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5866722d-a99e-4903-a11c-dd3e5b3a485b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T113358.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T113425.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T113430.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T113506.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T113816.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T115910.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T120012.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T120057.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T120110.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T120907.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-09T120919.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,65 +107,20 @@
       <recent name="D:\CodingTraining\Development\GoLang\go-salaries-app\model\domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestListSalariesSuccess in go-salaries-app/test">
-    <configuration name="TestDeleteSalaryFailed in go-salaries-app/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-salaries-app" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-salaries-app/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDeleteSalaryFailed\E$" />
+  <component name="RunManager" selected="HTTP Request.test | Get All">
+    <configuration name="test | Create" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" index="2" requestIdentifier="Create" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TestDeleteSalarySuccess in go-salaries-app/test (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-salaries-app" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-salaries-app/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDeleteSalarySuccess\E$" />
+    <configuration name="test | Delete" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" index="5" requestIdentifier="Delete" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TestDeleteSalarySuccess in go-salaries-app/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-salaries-app" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-salaries-app/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDeleteSalarySuccess\E$" />
+    <configuration name="test | Find By Id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" index="3" requestIdentifier="Find By Id" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TestGetSalaryFailed in go-salaries-app/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-salaries-app" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-salaries-app/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGetSalaryFailed\E$" />
+    <configuration name="test | Get All" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" requestIdentifier="Get All" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TestListSalariesSuccess in go-salaries-app/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-salaries-app" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-salaries-app/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestListSalariesSuccess\E$" />
+    <configuration name="test | Update" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" index="4" requestIdentifier="Update" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration default="true" type="SwaggerCodegen">
@@ -169,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestListSalariesSuccess in go-salaries-app/test" />
-        <item itemvalue="Go Test.TestDeleteSalaryFailed in go-salaries-app/test" />
-        <item itemvalue="Go Test.TestDeleteSalarySuccess in go-salaries-app/test (1)" />
-        <item itemvalue="Go Test.TestDeleteSalarySuccess in go-salaries-app/test" />
-        <item itemvalue="Go Test.TestGetSalaryFailed in go-salaries-app/test" />
+        <item itemvalue="HTTP Request.test | Get All" />
+        <item itemvalue="HTTP Request.test | Delete" />
+        <item itemvalue="HTTP Request.test | Create" />
+        <item itemvalue="HTTP Request.test | Update" />
+        <item itemvalue="HTTP Request.test | Find By Id" />
       </list>
     </recent_temporary>
   </component>

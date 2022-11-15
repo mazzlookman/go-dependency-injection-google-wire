@@ -11,20 +11,22 @@ x-api-key: rahasia
 
 
 {
-  "role": "",
+  "role": "UI/UX",
   "company": "Shopee",
-  "expr":null,
-  "salary": null
+  "expr":5,
+  "salary": 20000000
 }
 
 ### Find By Id
-GET localhost:8080/api/salaries/10
+GET localhost:8080/api/salaries/1
 Accept: application/json
+x-api-key: rahasia
 
 ### Update
-PUT localhost:8080/api/salaries/10
+PUT localhost:8080/api/salaries/3
 Content-Type: application/json
 Accept: application/json
+x-api-key: rahasia
 
 {
   "role": "Backend Developer",
@@ -34,5 +36,6 @@ Accept: application/json
 }
 
 ### Delete
-DELETE localhost:8080/api/salaries/2
+DELETE localhost:8080/api/salaries/4
 Accept: application/json
+x-api-key: rahasia

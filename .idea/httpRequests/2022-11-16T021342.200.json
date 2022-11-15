@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": {
+    "id": 4,
+    "role": "UI/UX",
+    "company": "Shopee",
+    "expr": 5,
+    "salary": 20000000
+  }
+}

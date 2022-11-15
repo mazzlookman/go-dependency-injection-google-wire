@@ -1,3 +1,230 @@
+GET http://localhost:8080/api/salaries
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021404.200.json
+
+###
+
+DELETE http://localhost:8080/api/salaries/4
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021400.200.json
+
+###
+
+DELETE http://localhost:8080/api/salaries/2
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021353.404.json
+
+###
+
+DELETE http://localhost:8080/api/salaries/2
+Accept: application/json
+
+<> 2022-11-16T021348.401.json
+
+###
+
+POST http://localhost:8080/api/salaries
+Content-Type: application/json
+Accept: application/json
+x-api-key: rahasia
+
+{
+  "role": "UI/UX",
+  "company": "Shopee",
+  "expr":5,
+  "salary": 20000000
+}
+
+<> 2022-11-16T021342.200.json
+
+###
+
+GET http://localhost:8080/api/salaries
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021335.200.json
+
+###
+
+PUT http://localhost:8080/api/salaries/3
+Content-Type: application/json
+Accept: application/json
+x-api-key: rahasia
+
+{
+  "role": "Backend Developer",
+  "company": "Gojek",
+  "expr": 1,
+  "salary": 8000000
+}
+
+<> 2022-11-16T021326.200.json
+
+###
+
+PUT http://localhost:8080/api/salaries/10
+Content-Type: application/json
+Accept: application/json
+x-api-key: rahasia
+
+{
+  "role": "Backend Developer",
+  "company": "Gojek",
+  "expr": 1,
+  "salary": 8000000
+}
+
+<> 2022-11-16T021313.404.json
+
+###
+
+PUT http://localhost:8080/api/salaries/10
+Content-Type: application/json
+Accept: application/json
+
+{
+  "role": "Backend Developer",
+  "company": "Gojek",
+  "expr": 1,
+  "salary": 8000000
+}
+
+<> 2022-11-16T021306.401.json
+
+###
+
+GET http://localhost:8080/api/salaries/1
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021301.200.json
+
+###
+
+GET http://localhost:8080/api/salaries/10
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021256.404.json
+
+###
+
+GET http://localhost:8080/api/salaries
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021250.200.json
+
+###
+
+POST http://localhost:8080/api/salaries
+Content-Type: application/json
+Accept: application/json
+x-api-key: rahasia
+
+{
+  "role": "UI/UX",
+  "company": "Shopee",
+  "expr":5,
+  "salary": 20000000
+}
+
+<> 2022-11-16T021244.200.json
+
+###
+
+POST http://localhost:8080/api/salaries
+Content-Type: application/json
+Accept: application/json
+x-api-key: rahasia
+
+{
+  "role": "",
+  "company": "Shopee",
+  "expr":null,
+  "salary": null
+}
+
+<> 2022-11-16T021215.400.json
+
+###
+
+GET http://localhost:8080/api/salaries
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021207.200.json
+
+###
+
+GET http://localhost:8080/api/salaries/10
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T021122.404.json
+
+###
+
+DELETE http://localhost:8080/api/salaries/2
+Accept: application/json
+
+<> 2022-11-16T020540.401.json
+
+###
+
+PUT http://localhost:8080/api/salaries/10
+Content-Type: application/json
+Accept: application/json
+
+{
+  "role": "Backend Developer",
+  "company": "Gojek",
+  "expr": 1,
+  "salary": 8000000
+}
+
+<> 2022-11-16T020522.401.json
+
+###
+
+GET http://localhost:8080/api/salaries/10
+Accept: application/json
+
+<> 2022-11-16T020441.401.json
+
+###
+
+POST http://localhost:8080/api/salaries
+Content-Type: application/json
+Accept: application/json
+x-api-key: rahasia
+
+{
+  "role": "",
+  "company": "Shopee",
+  "expr":null,
+  "salary": null
+}
+
+<> 2022-11-16T020432.400.json
+
+###
+
+GET http://localhost:8080/api/salaries
+Accept: application/json
+x-api-key: rahasia
+
+<> 2022-11-16T020420.200.json
+
+###
+
 POST http://localhost:8080/api/salaries
 Content-Type: application/json
 Accept: application/json
@@ -316,221 +543,6 @@ DELETE http://localhost:8080/api/salaries/2
 Accept: application/json
 
 <> 2022-11-09T121009.200.json
-
-###
-
-GET http://localhost:8080/api/salaries
-Accept: application/json
-
-<> 2022-11-09T120919.200.json
-
-###
-
-PUT http://localhost:8080/api/salaries/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Gojek",
-  "expr": 1,
-  "salary": 8000000
-}
-
-<> 2022-11-09T120907.200.json
-
-###
-
-PUT http://localhost:8080/api/salaries/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Gojek",
-  "expr": 1,
-  "salary": 8000000
-}
-
-###
-
-PUT http://localhost:8080/api/salaries/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Gojek",
-  "expr": 1,
-  "salary": 8000000
-}
-
-###
-
-PUT http://localhost:8080/api/salaries/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Gojek",
-  "expr": 1,
-  "salary": 8000000
-}
-
-###
-
-GET http://localhost:8080/api/salaries/3
-Accept: application/json
-
-###
-
-GET http://localhost:8080/api/salaries/2
-Accept: application/json
-
-<> 2022-11-09T120110.200.json
-
-###
-
-GET http://localhost:8080/api/salaries/1
-Accept: application/json
-
-<> 2022-11-09T120057.200.json
-
-###
-
-GET http://localhost:8080/api/salaries/1
-Accept: application/json
-
-<> 2022-11-09T120012.200.json
-
-###
-
-GET http://localhost:8080/api/salaries/1
-Accept: application/json
-
-<> 2022-11-09T115910.200.json
-
-###
-
-GET http://localhost:8080/api/salaries/1
-Accept: application/json
-
-###
-
-GET http://localhost:8080/api/salaries
-Accept: application/json
-
-<> 2022-11-09T113816.200.json
-
-###
-
-GET http://localhost:8080/api/salaries
-Accept: application/json
-
-<> 2022-11-09T113506.200.json
-
-###
-
-GET http://localhost:8080/api/salaries
-Accept: application/json
-
-<> 2022-11-09T113430.200.json
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Frontend Developer",
-  "company": "Shopee",
-  "expr": 1,
-  "salary": 6000000
-}
-
-<> 2022-11-09T113425.200.json
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Tokopedia",
-  "expr": 0,
-  "salary": 5000000
-}
-
-<> 2022-11-09T113358.200.json
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Tokopedia",
-  "expr": 0,
-  "salary": 5000000
-}
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Tokopedia",
-  "expr": 0,
-  "salary": 5000000
-}
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Tokopedia",
-  "expr": 0,
-  "salary": 5000000
-}
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Tokopedia",
-  "expr": 0,
-  "salary": 5000000
-}
-
-###
-
-POST http://localhost:8080/api/salaries
-Content-Type: application/json
-Accept: application/json
-
-{
-  "role": "Backend Developer",
-  "company": "Tokopedia",
-  "expr": 0,
-  "salary": 5000000
-}
 
 ###
 

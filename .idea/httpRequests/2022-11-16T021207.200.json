@@ -5,9 +5,9 @@
     {
       "id": 1,
       "role": "Backend Developer",
-      "company": "Tokopedia",
-      "expr": 0,
-      "salary": 5000000
+      "company": "Gojek",
+      "expr": 1,
+      "salary": 8000000
     }
   ]
 }
