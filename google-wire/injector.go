@@ -38,3 +38,8 @@ func InitializedSayHelloService() *SayHelloService {
 	wire.Build(sayHelloSet, NewSayHelloService)
 	return nil
 }
+
+func InitializedFooBarServiceStruct(foo Foo, bar Bar) *FooBarService {
+	wire.Build(fooSet, wire.Struct(new(FooBarService), "FooService"))
+	return nil
+}
